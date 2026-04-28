@@ -163,11 +163,11 @@ export function OutputPanel({ result, isLoading }: OutputPanelProps) {
   }
 
   return (
-    <SectionCard className="overflow-hidden">
-      <div className="border-b border-gray-200 px-6 pt-6">
+    <SectionCard className="overflow-hidden transition duration-200 hover:-translate-y-0.5 hover:shadow-lg">
+      <div className="border-b border-gray-200 px-5 pt-5 sm:px-6 sm:pt-6">
         <div className="flex flex-col gap-5 sm:flex-row sm:items-start sm:justify-between">
           <div className="space-y-2">
-            <p className="text-sm font-medium text-gray-900">Output</p>
+            <p className="text-sm font-medium text-gray-500">Output Panel</p>
             <div>
               <h2 className="text-2xl font-semibold tracking-tight text-gray-900">
                 Structured product outputs
@@ -183,7 +183,7 @@ export function OutputPanel({ result, isLoading }: OutputPanelProps) {
               type="button"
               onClick={handleCopy}
               disabled={!result || isLoading}
-              className="inline-flex h-10 items-center gap-2 rounded-xl border border-gray-200 bg-white px-3.5 text-sm font-medium text-gray-700 transition duration-200 hover:border-gray-300 hover:bg-gray-50 disabled:cursor-not-allowed disabled:opacity-50"
+              className="inline-flex h-10 items-center gap-2 rounded-full border border-gray-200 bg-white px-3.5 text-sm font-medium text-gray-700 transition duration-200 hover:scale-[1.01] hover:border-gray-300 hover:bg-gray-50 disabled:cursor-not-allowed disabled:opacity-50"
             >
               {copied ? <Check className="h-4 w-4" /> : <Copy className="h-4 w-4" />}
               {copied ? "Copied" : "Copy"}
@@ -192,7 +192,7 @@ export function OutputPanel({ result, isLoading }: OutputPanelProps) {
               type="button"
               onClick={handleDownload}
               disabled={!result || isLoading}
-              className="inline-flex h-10 items-center gap-2 rounded-xl border border-gray-200 bg-white px-3.5 text-sm font-medium text-gray-700 transition duration-200 hover:border-gray-300 hover:bg-gray-50 disabled:cursor-not-allowed disabled:opacity-50"
+              className="inline-flex h-10 items-center gap-2 rounded-full border border-gray-200 bg-white px-3.5 text-sm font-medium text-gray-700 transition duration-200 hover:scale-[1.01] hover:border-gray-300 hover:bg-gray-50 disabled:cursor-not-allowed disabled:opacity-50"
             >
               <Download className="h-4 w-4" />
               Download
@@ -213,7 +213,7 @@ export function OutputPanel({ result, isLoading }: OutputPanelProps) {
         </div>
       </div>
 
-      <div className="min-h-[460px] px-6 py-6">
+      <div className="min-h-[460px] px-5 py-5 sm:px-6 sm:py-6">
         {isLoading ? (
           <div className="flex h-full min-h-[380px] items-center justify-center">
             <div className="space-y-4 text-center">

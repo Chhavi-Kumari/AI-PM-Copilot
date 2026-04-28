@@ -1,15 +1,7 @@
-import OpenAI from "openai";
-
 export function getOpenAIClient() {
-  const apiKey = process.env.OPENAI_API_KEY;
-
-  if (!apiKey) {
-    throw new Error("Missing OPENAI_API_KEY environment variable.");
-  }
-
-  return new OpenAI({ apiKey });
+  throw new Error("OpenAI client is no longer used. The app now uses Gemini via GEMINI_API_KEY.");
 }
 
 export function getModel() {
-  return process.env.OPENAI_MODEL || "gpt-4.1";
+  return process.env.GEMINI_MODEL || "gemini-2.5-flash";
 }
