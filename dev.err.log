@@ -1,0 +1,280 @@
+ ⨯ ./app/api/generate/route.ts:2:1
+Module not found: Can't resolve '@google/generative-ai'
+  1 | import { NextResponse } from "next/server";
+> 2 | import { GoogleGenerativeAI } from "@google/generative-ai";
+    | ^
+  3 | import { z } from "zod";
+  4 |
+  5 | const requestSchema = z.object({
+
+https://nextjs.org/docs/messages/module-not-found
+ ⨯ ./app/api/generate/route.ts:2:1
+Module not found: Can't resolve '@google/generative-ai'
+  1 | import { NextResponse } from "next/server";
+> 2 | import { GoogleGenerativeAI } from "@google/generative-ai";
+    | ^
+  3 | import { z } from "zod";
+  4 |
+  5 | const requestSchema = z.object({
+
+https://nextjs.org/docs/messages/module-not-found
+ ⨯ ./app/api/generate/route.ts:2:1
+Module not found: Can't resolve '@google/generative-ai'
+  1 | import { NextResponse } from "next/server";
+> 2 | import { GoogleGenerativeAI } from "@google/generative-ai";
+    | ^
+  3 | import { z } from "zod";
+  4 |
+  5 | const requestSchema = z.object({
+
+https://nextjs.org/docs/messages/module-not-found
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\cache\webpack\client-development-fallback\0.pack.gz_' -> 'C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\cache\webpack\client-development-fallback\0.pack.gz'
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\cache\webpack\client-development-fallback\0.pack.gz_' -> 'C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\cache\webpack\client-development-fallback\0.pack.gz'
+Missing GEMINI_API_KEY environment variable.
+ ⨯ Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\webpack-runtime.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\app\api\generate\route.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\require.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\load-components.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\utils.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\swc\options.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\swc\index.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\config.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\next.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\app\page.js:26:7716)
+    at Object.<anonymous> (C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\app\page.js:26:7764) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\webpack-runtime.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\app\api\generate\route.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\require.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\load-components.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\utils.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\swc\options.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\swc\index.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\config.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\next.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\pages\_document.js:1:321)
+    at Object.<anonymous> (C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\pages\_document.js:1:366) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\webpack-runtime.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\app\api\generate\route.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\require.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\load-components.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\utils.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\swc\options.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\swc\index.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\config.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\next.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\app\page.js:26:7716)
+    at Object.<anonymous> (C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\app\page.js:26:7764) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\webpack-runtime.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\app\api\generate\route.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\require.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\load-components.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\utils.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\swc\options.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\swc\index.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\config.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\next.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\pages\_document.js:1:321)
+    at Object.<anonymous> (C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\pages\_document.js:1:366) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\fallback-build-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\chhav\\Documents\\USC\\CareerSC\\CV\\Portfolio\\AI PM Copilot\\.next\\fallback-build-manifest.json'
+}
+ ⨯ Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\webpack-runtime.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\app\api\generate\route.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\require.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\load-components.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\utils.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\swc\options.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\swc\index.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\config.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\next.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\app\page.js:26:7716)
+    at Object.<anonymous> (C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\app\page.js:26:7764) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\webpack-runtime.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\app\api\generate\route.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\require.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\load-components.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\utils.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\swc\options.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\swc\index.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\config.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\next.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\pages\_document.js:1:321)
+    at Object.<anonymous> (C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\pages\_document.js:1:366) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\webpack-runtime.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\app\api\generate\route.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\require.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\load-components.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\utils.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\swc\options.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\swc\index.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\config.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\next.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\app\page.js:26:7716)
+    at Object.<anonymous> (C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\app\page.js:26:7764) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\webpack-runtime.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\app\api\generate\route.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\require.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\load-components.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\utils.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\swc\options.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\swc\index.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\config.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\next.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\pages\_document.js:1:321)
+    at Object.<anonymous> (C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\pages\_document.js:1:366) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\fallback-build-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\chhav\\Documents\\USC\\CareerSC\\CV\\Portfolio\\AI PM Copilot\\.next\\fallback-build-manifest.json'
+}
+ ⨯ Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\webpack-runtime.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\app\api\generate\route.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\require.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\load-components.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\utils.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\swc\options.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\swc\index.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\config.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\next.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\app\page.js:26:7716)
+    at Object.<anonymous> (C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\app\page.js:26:7764) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\webpack-runtime.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\app\api\generate\route.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\require.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\load-components.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\utils.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\swc\options.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\swc\index.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\config.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\next.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\pages\_document.js:1:321)
+    at Object.<anonymous> (C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\pages\_document.js:1:366) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\webpack-runtime.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\app\api\generate\route.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\require.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\load-components.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\utils.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\swc\options.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\swc\index.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\config.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\next.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\app\page.js:26:7716)
+    at Object.<anonymous> (C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\app\page.js:26:7764) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\webpack-runtime.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\app\api\generate\route.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\require.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\load-components.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\utils.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\swc\options.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\swc\index.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\config.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\next.js
+- C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\pages\_document.js:1:321)
+    at Object.<anonymous> (C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\server\pages\_document.js:1:366) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\fallback-build-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\chhav\\Documents\\USC\\CareerSC\\CV\\Portfolio\\AI PM Copilot\\.next\\fallback-build-manifest.json'
+}
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\cache\webpack\client-development\7.pack.gz_' -> 'C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\cache\webpack\client-development\7.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Restoring pack failed from C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\cache\webpack\client-development-fallback.pack.gz: Error: incorrect header check
+<w> [webpack.cache.PackFileCacheStrategy] Restoring pack failed from C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\cache\webpack\client-development-fallback.pack.gz: Error: incorrect header check
+<w> [webpack.cache.PackFileCacheStrategy] Restoring pack failed from C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\cache\webpack\client-development-fallback.pack.gz: Error: incorrect header check
+<w> [webpack.cache.PackFileCacheStrategy] Restoring pack failed from C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\cache\webpack\client-development-fallback.pack.gz: Error: incorrect header check

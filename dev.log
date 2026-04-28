@@ -1,0 +1,53 @@
+
+> ai-pm-copilot@1.0.0 dev
+> next dev --port 3000
+
+   ▲ Next.js 15.5.15
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.1.105:3000
+
+ ✓ Starting...
+ ✓ Ready in 4.9s
+ ○ Compiling / ...
+ ✓ Compiled / in 11.3s (921 modules)
+ GET / 200 in 13033ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 1078ms (926 modules)
+ GET /.env.local 404 in 1595ms
+ GET /env.local 404 in 136ms
+ ✓ Compiled in 952ms (415 modules)
+ GET / 200 in 280ms
+ ○ Compiling /api/generate ...
+ GET / 500 in 12759ms
+ POST /api/generate 500 in 14139ms
+ GET / 500 in 660ms
+ GET / 500 in 73ms
+ GET / 500 in 45ms
+ ✓ Compiled /_error in 1529ms (1254 modules)
+ GET / 200 in 1076ms
+ ○ Compiling /api/generate ...
+ ✓ Compiled /api/generate in 1088ms (730 modules)
+ POST /api/generate 500 in 1503ms
+ GET / 500 in 837ms
+ GET / 500 in 349ms
+ GET / 500 in 845ms
+ GET / 500 in 358ms
+ GET / 500 in 829ms
+ GET / 500 in 363ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 1576ms (1259 modules)
+ GET / 404 in 2607ms
+   Reload env: .env.local
+ ✓ Compiled in 1122ms (1254 modules)
+ ✓ Compiled in 1170ms (568 modules)
+ ✓ Compiled in 800ms (568 modules)
+ ✓ Compiled in 4s (1278 modules)
+ ✓ Compiled in 910ms (1270 modules)
+ ✓ Compiled in 700ms (569 modules)
+ ✓ Compiled in 2.3s (569 modules)
+ ✓ Compiled in 845ms (701 modules)
+   Reload env: .env.local
+ ✓ Compiled in 1361ms (1256 modules)
+ ✓ Compiled in 2.3s (1270 modules)
+ ✓ Compiled in 1032ms (555 modules)
+ ✓ Compiled in 766ms (701 modules)
