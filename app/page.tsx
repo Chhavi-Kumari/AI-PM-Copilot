@@ -3,11 +3,11 @@
 import { ArrowRight, FlaskConical, Sparkles } from "lucide-react";
 import { useState } from "react";
 
-import { LoadingSpinner } from "@/components/loading-spinner";
-import { OutputPanel } from "@/components/output-panel";
-import { SectionCard } from "@/components/section-card";
-import { exampleInput } from "@/lib/example-input";
-import type { GenerateResponse } from "@/lib/types";
+import { LoadingSpinner } from "../components/loading-spinner";
+import { OutputPanel } from "../components/output-panel";
+import { SectionCard } from "../components/section-card";
+import { exampleInput } from "../lib/example-input";
+import type { GenerateResponse } from "../lib/types";
 
 export default function HomePage() {
   const [input, setInput] = useState("");
