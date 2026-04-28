@@ -278,3 +278,39 @@ Require stack:
 <w> [webpack.cache.PackFileCacheStrategy] Restoring pack failed from C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\cache\webpack\client-development-fallback.pack.gz: Error: incorrect header check
 <w> [webpack.cache.PackFileCacheStrategy] Restoring pack failed from C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\cache\webpack\client-development-fallback.pack.gz: Error: incorrect header check
 <w> [webpack.cache.PackFileCacheStrategy] Restoring pack failed from C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\cache\webpack\client-development-fallback.pack.gz: Error: incorrect header check
+<w> [webpack.cache.PackFileCacheStrategy] Restoring pack failed from C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\cache\webpack\client-development-fallback.pack.gz: Error: incorrect header check
+<w> [webpack.cache.PackFileCacheStrategy] Restoring pack failed from C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\cache\webpack\client-development-fallback.pack.gz: Error: incorrect header check
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\cache\webpack\client-development-fallback\0.pack.gz_' -> 'C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\.next\cache\webpack\client-development-fallback\0.pack.gz'
+ ⨯ ./node_modules/lucide-react/dist/esm/icons/arrow-right.js
+Error: 
+
+Caused by:
+    0: Failed to read source code from C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\lucide-react\dist\esm\icons\arrow-right.js
+    1: The system cannot find the path specified. (os error 3)
+
+Import trace for requested module:
+./node_modules/lucide-react/dist/esm/icons/arrow-right.js
+__barrel_optimize__?names=ArrowRight,FlaskConical,Sparkles!=!./node_modules/lucide-react/dist/esm/lucide-react.js
+./app/page.tsx
+ ⨯ ./node_modules/lucide-react/dist/esm/icons/arrow-right.js
+Error: 
+
+Caused by:
+    0: Failed to read source code from C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\lucide-react\dist\esm\icons\arrow-right.js
+    1: The system cannot find the path specified. (os error 3)
+
+Import trace for requested module:
+./node_modules/lucide-react/dist/esm/icons/arrow-right.js
+__barrel_optimize__?names=ArrowRight,FlaskConical,Sparkles!=!./node_modules/lucide-react/dist/esm/lucide-react.js
+./app/page.tsx
+ ⨯ ./node_modules/lucide-react/dist/esm/icons/arrow-right.js
+Error: 
+
+Caused by:
+    0: Failed to read source code from C:\Users\chhav\Documents\USC\CareerSC\CV\Portfolio\AI PM Copilot\node_modules\lucide-react\dist\esm\icons\arrow-right.js
+    1: The system cannot find the path specified. (os error 3)
+
+Import trace for requested module:
+./node_modules/lucide-react/dist/esm/icons/arrow-right.js
+__barrel_optimize__?names=ArrowRight,FlaskConical,Sparkles!=!./node_modules/lucide-react/dist/esm/lucide-react.js
+./app/page.tsx
